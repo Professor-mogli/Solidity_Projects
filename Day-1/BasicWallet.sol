@@ -47,3 +47,14 @@ contract BasicWallet {
     }
 }
 
+//these are the concepts used in this contract
+//1. Access Control: onlyOwner modifier to restrict certain functions to the contract owner.
+//2. Events: Deposited and Withdrawn events to log deposits and withdrawals.
+//3. Payable Functions: receive and fallback functions to accept ETH deposits.
+//4. Basic ETH Transfer: withdraw function  to transfer ETH from the contract to the owner.
+
+//Here are some keywords defined used in this contract:
+//1. Access Control: A mechanism to restrict access to certain functions. The 'onlyOwner' modifier ensures that only the contract owner can call specific functions.
+//2. Events: Mechanisms to log information on the blockchain. The 'Deposited' and 'Withdrawn' events log details of ETH deposits and withdrawals.
+//3. Payable Functions: Functions that can receive ETH. The 'receive' and 'fallback' functions are payable, allowing the contract to accept ETH sent to it.
+//4. Basic ETH Transfer: The process of sending ETH from the contract to an external address. The 'withdraw' function transfers a specified amount of ETH to the contract owner.
