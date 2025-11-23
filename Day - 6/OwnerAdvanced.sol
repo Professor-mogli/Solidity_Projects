@@ -77,4 +77,4 @@ contract OwnerAdvanced {
 //2. Custom Error Handling: Instead of using require statements with error messages, custom error types are defined and used with revert statements. This method is more gas-efficient and provides clearer error handling.
 //3. Events: Events are used to log significant actions in the contract, such as nominating a new owner, accepting ownership, and renouncing ownership. These logs can be monitored off-chain for transparency and auditing.
 //4. Access Control Modifiers: Modifiers are reusable code blocks that restrict access to certain functions based on the caller's role (e.g., only the owner or only the nominated owner can call specific functions).
-//5. State Variables: Variables that store the current state of the contract, such as the current owner and the nominated owner. These variables are essential for managing ownership and enforcing access control.
+//5. State Variables: Variables that store the current state of the contract, such as the current owner and the nominated owner.These variables are essential for managing ownership and enforcing access control.
